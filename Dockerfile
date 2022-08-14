@@ -36,6 +36,7 @@ RUN mkdir -p /app && \
 COPY --from=node --chown=node:node /app/package.json /app/
 COPY --from=node --chown=node:node /app/.next/ /app/.next/
 COPY --from=node --chown=node:node /app/node_modules/ /app/node_modules/
+COPY --from=node --chown=node:node /app/public/ /app/public/
 
 USER node
 WORKDIR /app
