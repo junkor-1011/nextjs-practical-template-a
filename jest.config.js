@@ -4,8 +4,8 @@ module.exports = {
     // 'ts-jest': {
     //   useESM: true,
     // },
-    'esbuild-jest': {
-      tsconfig: '<rootDir>/tsconfig.jest.json',
+    '@swc/jest': {
+      tsconfig: '<rootDir>/tsconfig.json',
     },
   },
   moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx'],
@@ -15,7 +15,7 @@ module.exports = {
   testPathIgnorePatterns: ['<rootDir>/node_modules/'],
   testEnvironment: 'jsdom',
   transform: {
-    '^.+\\.(ts|tsx)$': 'esbuild-jest',
+    '^.+\\.(ts|tsx)$': '@swc/jest',
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
   },
 };
