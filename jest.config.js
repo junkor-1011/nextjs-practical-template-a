@@ -15,7 +15,28 @@ module.exports = {
   testPathIgnorePatterns: ['<rootDir>/node_modules/'],
   testEnvironment: 'jsdom',
   transform: {
-    '^.+\\.(ts|tsx)$': '@swc/jest',
+    '^.+\\.(t|j)sx?$': [
+      '@swc/jest',
+      {
+        sourceMaps: true,
+        /*
+      module: {
+        type: 'commonjs',
+      },
+      jsc: {
+        parser: {
+          syntax: 'typescript',
+          tsx: true,
+        },
+      transform: {
+          react: {
+            runtime: 'automatic'
+          }
+        }
+      },
+      */
+      },
+    ],
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
   },
 };
