@@ -1,0 +1,683 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Example/Button Large 1`] = `
+<button
+  className="storybook-button storybook-button--large storybook-button--secondary"
+  style={
+    {
+      "backgroundColor": undefined,
+    }
+  }
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Example/Button Primary 1`] = `
+<button
+  className="storybook-button storybook-button--medium storybook-button--primary"
+  style={
+    {
+      "backgroundColor": undefined,
+    }
+  }
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Example/Button Secondary 1`] = `
+<button
+  className="storybook-button storybook-button--medium storybook-button--secondary"
+  style={
+    {
+      "backgroundColor": undefined,
+    }
+  }
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Example/Button Small 1`] = `
+<button
+  className="storybook-button storybook-button--small storybook-button--secondary"
+  style={
+    {
+      "backgroundColor": undefined,
+    }
+  }
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Example/Header Logged In 1`] = `
+<header>
+  <div
+    className="wrapper"
+  >
+    <div>
+      <svg
+        height="32"
+        viewBox="0 0 32 32"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+        >
+          <path
+            d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
+            fill="#FFF"
+          />
+          <path
+            d="M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z"
+            fill="#555AB9"
+          />
+          <path
+            d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z"
+            fill="#91BAF8"
+          />
+        </g>
+      </svg>
+      <h1>
+        Acme
+      </h1>
+    </div>
+    <div>
+      <span
+        className="welcome"
+      >
+        Welcome, 
+        <b>
+          Jane Doe
+        </b>
+        !
+      </span>
+      <button
+        className="storybook-button storybook-button--small storybook-button--secondary"
+        style={
+          {
+            "backgroundColor": undefined,
+          }
+        }
+        type="button"
+      >
+        Log out
+      </button>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`Storyshots Example/Header Logged Out 1`] = `
+<header>
+  <div
+    className="wrapper"
+  >
+    <div>
+      <svg
+        height="32"
+        viewBox="0 0 32 32"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+        >
+          <path
+            d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
+            fill="#FFF"
+          />
+          <path
+            d="M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z"
+            fill="#555AB9"
+          />
+          <path
+            d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z"
+            fill="#91BAF8"
+          />
+        </g>
+      </svg>
+      <h1>
+        Acme
+      </h1>
+    </div>
+    <div>
+      <button
+        className="storybook-button storybook-button--small storybook-button--secondary"
+        style={
+          {
+            "backgroundColor": undefined,
+          }
+        }
+        type="button"
+      >
+        Log in
+      </button>
+      <button
+        className="storybook-button storybook-button--small storybook-button--primary"
+        style={
+          {
+            "backgroundColor": undefined,
+          }
+        }
+        type="button"
+      >
+        Sign up
+      </button>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`Storyshots Example/Page Logged In 1`] = `
+<article>
+  <header>
+    <div
+      className="wrapper"
+    >
+      <div>
+        <svg
+          height="32"
+          viewBox="0 0 32 32"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
+              fill="#FFF"
+            />
+            <path
+              d="M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z"
+              fill="#555AB9"
+            />
+            <path
+              d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z"
+              fill="#91BAF8"
+            />
+          </g>
+        </svg>
+        <h1>
+          Acme
+        </h1>
+      </div>
+      <div>
+        <button
+          className="storybook-button storybook-button--small storybook-button--secondary"
+          onClick={[Function]}
+          style={
+            {
+              "backgroundColor": undefined,
+            }
+          }
+          type="button"
+        >
+          Log in
+        </button>
+        <button
+          className="storybook-button storybook-button--small storybook-button--primary"
+          onClick={[Function]}
+          style={
+            {
+              "backgroundColor": undefined,
+            }
+          }
+          type="button"
+        >
+          Sign up
+        </button>
+      </div>
+    </div>
+  </header>
+  <section>
+    <h2>
+      Pages in Storybook
+    </h2>
+    <p>
+      We recommend building UIs with a
+       
+      <a
+        href="https://componentdriven.org"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <strong>
+          component-driven
+        </strong>
+      </a>
+       
+      process starting with atomic components and ending with pages.
+    </p>
+    <p>
+      Render pages with mock data. This makes it easy to build and review page states without needing to navigate to them in your app. Here are some handy patterns for managing page data in Storybook:
+    </p>
+    <ul>
+      <li>
+        Use a higher-level connected component. Storybook helps you compose such data from the "args" of child component stories
+      </li>
+      <li>
+        Assemble data in the page component from your services. You can mock these services out using Storybook.
+      </li>
+    </ul>
+    <p>
+      Get a guided tutorial on component-driven development at
+       
+      <a
+        href="https://storybook.js.org/tutorials/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Storybook tutorials
+      </a>
+      . Read more in the
+       
+      <a
+        href="https://storybook.js.org/docs"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        docs
+      </a>
+      .
+    </p>
+    <div
+      className="tip-wrapper"
+    >
+      <span
+        className="tip"
+      >
+        Tip
+      </span>
+       Adjust the width of the canvas with the
+       
+      <svg
+        height="10"
+        viewBox="0 0 12 12"
+        width="10"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+        >
+          <path
+            d="M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z"
+            fill="#999"
+            id="a"
+          />
+        </g>
+      </svg>
+      Viewports addon in the toolbar
+    </div>
+  </section>
+</article>
+`;
+
+exports[`Storyshots Example/Page Logged Out 1`] = `
+<article>
+  <header>
+    <div
+      className="wrapper"
+    >
+      <div>
+        <svg
+          height="32"
+          viewBox="0 0 32 32"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
+              fill="#FFF"
+            />
+            <path
+              d="M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z"
+              fill="#555AB9"
+            />
+            <path
+              d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z"
+              fill="#91BAF8"
+            />
+          </g>
+        </svg>
+        <h1>
+          Acme
+        </h1>
+      </div>
+      <div>
+        <button
+          className="storybook-button storybook-button--small storybook-button--secondary"
+          onClick={[Function]}
+          style={
+            {
+              "backgroundColor": undefined,
+            }
+          }
+          type="button"
+        >
+          Log in
+        </button>
+        <button
+          className="storybook-button storybook-button--small storybook-button--primary"
+          onClick={[Function]}
+          style={
+            {
+              "backgroundColor": undefined,
+            }
+          }
+          type="button"
+        >
+          Sign up
+        </button>
+      </div>
+    </div>
+  </header>
+  <section>
+    <h2>
+      Pages in Storybook
+    </h2>
+    <p>
+      We recommend building UIs with a
+       
+      <a
+        href="https://componentdriven.org"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <strong>
+          component-driven
+        </strong>
+      </a>
+       
+      process starting with atomic components and ending with pages.
+    </p>
+    <p>
+      Render pages with mock data. This makes it easy to build and review page states without needing to navigate to them in your app. Here are some handy patterns for managing page data in Storybook:
+    </p>
+    <ul>
+      <li>
+        Use a higher-level connected component. Storybook helps you compose such data from the "args" of child component stories
+      </li>
+      <li>
+        Assemble data in the page component from your services. You can mock these services out using Storybook.
+      </li>
+    </ul>
+    <p>
+      Get a guided tutorial on component-driven development at
+       
+      <a
+        href="https://storybook.js.org/tutorials/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Storybook tutorials
+      </a>
+      . Read more in the
+       
+      <a
+        href="https://storybook.js.org/docs"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        docs
+      </a>
+      .
+    </p>
+    <div
+      className="tip-wrapper"
+    >
+      <span
+        className="tip"
+      >
+        Tip
+      </span>
+       Adjust the width of the canvas with the
+       
+      <svg
+        height="10"
+        viewBox="0 0 12 12"
+        width="10"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+        >
+          <path
+            d="M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z"
+            fill="#999"
+            id="a"
+          />
+        </g>
+      </svg>
+      Viewports addon in the toolbar
+    </div>
+  </section>
+</article>
+`;
+
+exports[`Storyshots Pages/Home Home Page 1`] = `
+<div
+  className="container"
+>
+  <main
+    className="main"
+  >
+    <h1
+      className="title"
+    >
+      Welcome to 
+      <a
+        href="https://nextjs.org"
+      >
+        Next.js!
+      </a>
+    </h1>
+    <p
+      className="description"
+    >
+      Get started by editing 
+      <code
+        className="code"
+      >
+        pages/index.tsx
+      </code>
+    </p>
+    <div
+      className="grid"
+    >
+      <a
+        className="card"
+        href="https://nextjs.org/docs"
+      >
+        <h2>
+          Documentation →
+        </h2>
+        <p>
+          Find in-depth information about Next.js features and API.
+        </p>
+      </a>
+      <a
+        className="card"
+        href="https://nextjs.org/learn"
+      >
+        <h2>
+          Learn →
+        </h2>
+        <p>
+          Learn about Next.js in an interactive course with quizzes!
+        </p>
+      </a>
+      <a
+        className="card"
+        href="https://github.com/vercel/next.js/tree/canary/examples"
+      >
+        <h2>
+          Examples →
+        </h2>
+        <p>
+          Discover and deploy boilerplate example Next.js projects.
+        </p>
+      </a>
+      <a
+        className="card"
+        href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+      >
+        <h2>
+          Deploy →
+        </h2>
+        <p>
+          Instantly deploy your Next.js site to a public URL with Vercel.
+        </p>
+      </a>
+    </div>
+  </main>
+  <footer
+    className="footer"
+  >
+    <a
+      href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Powered by
+       
+      <span
+        className="logo"
+      >
+        <span
+          style={
+            {
+              "background": "none",
+              "border": 0,
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "overflow": "hidden",
+              "padding": 0,
+              "position": "relative",
+              "width": "initial",
+            }
+          }
+        >
+          <span
+            style={
+              {
+                "background": "none",
+                "border": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "maxWidth": "100%",
+                "opacity": 1,
+                "padding": 0,
+                "width": "initial",
+              }
+            }
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2772%27%20height=%2716%27/%3e"
+              style={
+                {
+                  "background": "none",
+                  "border": 0,
+                  "display": "block",
+                  "height": "initial",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "opacity": 1,
+                  "padding": 0,
+                  "width": "initial",
+                }
+              }
+            />
+          </span>
+          <img
+            alt="Vercel Logo"
+            data-nimg="intrinsic"
+            decoding="async"
+            onError={[Function]}
+            onLoad={[Function]}
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style={
+              {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+          <noscript>
+            <img
+              alt="Vercel Logo"
+              data-nimg="intrinsic"
+              decoding="async"
+              loading="lazy"
+              src="/vercel.svg"
+              style={
+                {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </noscript>
+        </span>
+      </span>
+    </a>
+  </footer>
+</div>
+`;
