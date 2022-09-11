@@ -17,6 +17,15 @@ const customJestConfig = {
   moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx', 'json', 'mdx'],
   moduleNameMapper: {
     '^@/(.+)': '<rootDir>/src/$1',
+
+    // Handle CSS imports (with CSS modules)
+    // https://jestjs.io/docs/webpack#mocking-css-modules
+    // '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
+
+    // Handle CSS imports (without CSS modules)
+    // '^.+\\.(css|sass|scss)$': '<rootDir>/__mocks__/styleMock.js',
+    // https://jestjs.io/docs/webpack#handling-static-assets
+    '^.+\\.(png|jpg|jpeg|gif|webp|avif|ico|bmp|svg)$/i': `<rootDir>/__mocks__/fileMock.js`,
   },
   testPathIgnorePatterns: ['<rootDir>/node_modules/'],
   testEnvironment: 'jest-environment-jsdom',
