@@ -27,7 +27,7 @@ const customJestConfig = {
     // https://jestjs.io/docs/webpack#handling-static-assets
     '^.+\\.(png|jpg|jpeg|gif|webp|avif|ico|bmp|svg)$/i': `<rootDir>/__mocks__/fileMock.js`,
   },
-  testPathIgnorePatterns: ['<rootDir>/node_modules/'],
+  testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/'],
   testEnvironment: 'jest-environment-jsdom',
   transform: {
     '^.+\\.(t|j)sx?$': [
@@ -52,6 +52,7 @@ const customJestConfig = {
     ],
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
   },
+  transformIgnorePatterns: ['/node_modules/', '^.+\\.module\\.(css|sass|scss)$'],
 };
 
 // createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async
