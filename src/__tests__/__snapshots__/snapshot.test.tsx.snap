@@ -2,12 +2,7 @@
 
 exports[`Storyshots Example/Button Large 1`] = `
 <button
-  className="storybook-button storybook-button--large storybook-button--secondary"
-  style={
-    {
-      "backgroundColor": undefined,
-    }
-  }
+  class="storybook-button storybook-button--large storybook-button--secondary"
   type="button"
 >
   Button
@@ -16,12 +11,7 @@ exports[`Storyshots Example/Button Large 1`] = `
 
 exports[`Storyshots Example/Button Primary 1`] = `
 <button
-  className="storybook-button storybook-button--medium storybook-button--primary"
-  style={
-    {
-      "backgroundColor": undefined,
-    }
-  }
+  class="storybook-button storybook-button--medium storybook-button--primary"
   type="button"
 >
   Button
@@ -30,12 +20,7 @@ exports[`Storyshots Example/Button Primary 1`] = `
 
 exports[`Storyshots Example/Button Secondary 1`] = `
 <button
-  className="storybook-button storybook-button--medium storybook-button--secondary"
-  style={
-    {
-      "backgroundColor": undefined,
-    }
-  }
+  class="storybook-button storybook-button--medium storybook-button--secondary"
   type="button"
 >
   Button
@@ -44,12 +29,7 @@ exports[`Storyshots Example/Button Secondary 1`] = `
 
 exports[`Storyshots Example/Button Small 1`] = `
 <button
-  className="storybook-button storybook-button--small storybook-button--secondary"
-  style={
-    {
-      "backgroundColor": undefined,
-    }
-  }
+  class="storybook-button storybook-button--small storybook-button--secondary"
   type="button"
 >
   Button
@@ -59,7 +39,7 @@ exports[`Storyshots Example/Button Small 1`] = `
 exports[`Storyshots Example/Header Logged In 1`] = `
 <header>
   <div
-    className="wrapper"
+    class="wrapper"
   >
     <div>
       <svg
@@ -70,7 +50,7 @@ exports[`Storyshots Example/Header Logged In 1`] = `
       >
         <g
           fill="none"
-          fillRule="evenodd"
+          fill-rule="evenodd"
         >
           <path
             d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
@@ -92,7 +72,7 @@ exports[`Storyshots Example/Header Logged In 1`] = `
     </div>
     <div>
       <span
-        className="welcome"
+        class="welcome"
       >
         Welcome, 
         <b>
@@ -101,12 +81,7 @@ exports[`Storyshots Example/Header Logged In 1`] = `
         !
       </span>
       <button
-        className="storybook-button storybook-button--small storybook-button--secondary"
-        style={
-          {
-            "backgroundColor": undefined,
-          }
-        }
+        class="storybook-button storybook-button--small storybook-button--secondary"
         type="button"
       >
         Log out
@@ -119,7 +94,7 @@ exports[`Storyshots Example/Header Logged In 1`] = `
 exports[`Storyshots Example/Header Logged Out 1`] = `
 <header>
   <div
-    className="wrapper"
+    class="wrapper"
   >
     <div>
       <svg
@@ -130,7 +105,7 @@ exports[`Storyshots Example/Header Logged Out 1`] = `
       >
         <g
           fill="none"
-          fillRule="evenodd"
+          fill-rule="evenodd"
         >
           <path
             d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
@@ -152,23 +127,13 @@ exports[`Storyshots Example/Header Logged Out 1`] = `
     </div>
     <div>
       <button
-        className="storybook-button storybook-button--small storybook-button--secondary"
-        style={
-          {
-            "backgroundColor": undefined,
-          }
-        }
+        class="storybook-button storybook-button--small storybook-button--secondary"
         type="button"
       >
         Log in
       </button>
       <button
-        className="storybook-button storybook-button--small storybook-button--primary"
-        style={
-          {
-            "backgroundColor": undefined,
-          }
-        }
+        class="storybook-button storybook-button--small storybook-button--primary"
         type="button"
       >
         Sign up
@@ -182,7 +147,7 @@ exports[`Storyshots Example/Page Logged In 1`] = `
 <article>
   <header>
     <div
-      className="wrapper"
+      class="wrapper"
     >
       <div>
         <svg
@@ -193,7 +158,7 @@ exports[`Storyshots Example/Page Logged In 1`] = `
         >
           <g
             fill="none"
-            fillRule="evenodd"
+            fill-rule="evenodd"
           >
             <path
               d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
@@ -215,25 +180,13 @@ exports[`Storyshots Example/Page Logged In 1`] = `
       </div>
       <div>
         <button
-          className="storybook-button storybook-button--small storybook-button--secondary"
-          onClick={[Function]}
-          style={
-            {
-              "backgroundColor": undefined,
-            }
-          }
+          class="storybook-button storybook-button--small storybook-button--secondary"
           type="button"
         >
           Log in
         </button>
         <button
-          className="storybook-button storybook-button--small storybook-button--primary"
-          onClick={[Function]}
-          style={
-            {
-              "backgroundColor": undefined,
-            }
-          }
+          class="storybook-button storybook-button--small storybook-button--primary"
           type="button"
         >
           Sign up
@@ -293,10 +246,10 @@ exports[`Storyshots Example/Page Logged In 1`] = `
       .
     </p>
     <div
-      className="tip-wrapper"
+      class="tip-wrapper"
     >
       <span
-        className="tip"
+        class="tip"
       >
         Tip
       </span>
@@ -310,7 +263,7 @@ exports[`Storyshots Example/Page Logged In 1`] = `
       >
         <g
           fill="none"
-          fillRule="evenodd"
+          fill-rule="evenodd"
         >
           <path
             d="M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z"
@@ -329,7 +282,7 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
 <article>
   <header>
     <div
-      className="wrapper"
+      class="wrapper"
     >
       <div>
         <svg
@@ -340,7 +293,7 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
         >
           <g
             fill="none"
-            fillRule="evenodd"
+            fill-rule="evenodd"
           >
             <path
               d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
@@ -362,25 +315,13 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
       </div>
       <div>
         <button
-          className="storybook-button storybook-button--small storybook-button--secondary"
-          onClick={[Function]}
-          style={
-            {
-              "backgroundColor": undefined,
-            }
-          }
+          class="storybook-button storybook-button--small storybook-button--secondary"
           type="button"
         >
           Log in
         </button>
         <button
-          className="storybook-button storybook-button--small storybook-button--primary"
-          onClick={[Function]}
-          style={
-            {
-              "backgroundColor": undefined,
-            }
-          }
+          class="storybook-button storybook-button--small storybook-button--primary"
           type="button"
         >
           Sign up
@@ -440,10 +381,10 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
       .
     </p>
     <div
-      className="tip-wrapper"
+      class="tip-wrapper"
     >
       <span
-        className="tip"
+        class="tip"
       >
         Tip
       </span>
@@ -457,7 +398,7 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
       >
         <g
           fill="none"
-          fillRule="evenodd"
+          fill-rule="evenodd"
         >
           <path
             d="M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z"
@@ -474,13 +415,13 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
 
 exports[`Storyshots Pages/Home Home Page 1`] = `
 <div
-  className="container"
+  class="container"
 >
   <main
-    className="main"
+    class="main"
   >
     <h1
-      className="title"
+      class="title"
     >
       Welcome to 
       <a
@@ -490,20 +431,20 @@ exports[`Storyshots Pages/Home Home Page 1`] = `
       </a>
     </h1>
     <p
-      className="description"
+      class="description"
     >
       Get started by editing 
       <code
-        className="code"
+        class="code"
       >
         pages/index.tsx
       </code>
     </p>
     <div
-      className="grid"
+      class="grid"
     >
       <a
-        className="card"
+        class="card"
         href="https://nextjs.org/docs"
       >
         <h2>
@@ -514,7 +455,7 @@ exports[`Storyshots Pages/Home Home Page 1`] = `
         </p>
       </a>
       <a
-        className="card"
+        class="card"
         href="https://nextjs.org/learn"
       >
         <h2>
@@ -525,7 +466,7 @@ exports[`Storyshots Pages/Home Home Page 1`] = `
         </p>
       </a>
       <a
-        className="card"
+        class="card"
         href="https://github.com/vercel/next.js/tree/canary/examples"
       >
         <h2>
@@ -536,7 +477,7 @@ exports[`Storyshots Pages/Home Home Page 1`] = `
         </p>
       </a>
       <a
-        className="card"
+        class="card"
         href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
       >
         <h2>
@@ -549,7 +490,7 @@ exports[`Storyshots Pages/Home Home Page 1`] = `
     </div>
   </main>
   <footer
-    className="footer"
+    class="footer"
   >
     <a
       href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -559,122 +500,29 @@ exports[`Storyshots Pages/Home Home Page 1`] = `
       Powered by
        
       <span
-        className="logo"
+        class="logo"
       >
         <span
-          style={
-            {
-              "background": "none",
-              "border": 0,
-              "boxSizing": "border-box",
-              "display": "inline-block",
-              "height": "initial",
-              "margin": 0,
-              "maxWidth": "100%",
-              "opacity": 1,
-              "overflow": "hidden",
-              "padding": 0,
-              "position": "relative",
-              "width": "initial",
-            }
-          }
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
         >
           <span
-            style={
-              {
-                "background": "none",
-                "border": 0,
-                "boxSizing": "border-box",
-                "display": "block",
-                "height": "initial",
-                "margin": 0,
-                "maxWidth": "100%",
-                "opacity": 1,
-                "padding": 0,
-                "width": "initial",
-              }
-            }
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
           >
             <img
               alt=""
-              aria-hidden={true}
+              aria-hidden="true"
               src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2772%27%20height=%2716%27/%3e"
-              style={
-                {
-                  "background": "none",
-                  "border": 0,
-                  "display": "block",
-                  "height": "initial",
-                  "margin": 0,
-                  "maxWidth": "100%",
-                  "opacity": 1,
-                  "padding": 0,
-                  "width": "initial",
-                }
-              }
+              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
             />
           </span>
           <img
             alt="Vercel Logo"
             data-nimg="intrinsic"
             decoding="async"
-            onError={[Function]}
-            onLoad={[Function]}
             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style={
-              {
-                "border": "none",
-                "bottom": 0,
-                "boxSizing": "border-box",
-                "display": "block",
-                "height": 0,
-                "left": 0,
-                "margin": "auto",
-                "maxHeight": "100%",
-                "maxWidth": "100%",
-                "minHeight": "100%",
-                "minWidth": "100%",
-                "objectFit": undefined,
-                "objectPosition": undefined,
-                "padding": 0,
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-                "width": 0,
-              }
-            }
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
           />
-          <noscript>
-            <img
-              alt="Vercel Logo"
-              data-nimg="intrinsic"
-              decoding="async"
-              loading="lazy"
-              src="/vercel.svg"
-              style={
-                {
-                  "border": "none",
-                  "bottom": 0,
-                  "boxSizing": "border-box",
-                  "display": "block",
-                  "height": 0,
-                  "left": 0,
-                  "margin": "auto",
-                  "maxHeight": "100%",
-                  "maxWidth": "100%",
-                  "minHeight": "100%",
-                  "minWidth": "100%",
-                  "objectFit": undefined,
-                  "objectPosition": undefined,
-                  "padding": 0,
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                  "width": 0,
-                }
-              }
-            />
-          </noscript>
+          <noscript />
         </span>
       </span>
     </a>

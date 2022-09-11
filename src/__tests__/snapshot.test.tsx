@@ -1,15 +1,20 @@
+/* eslint-disable testing-library/no-node-access */
+/* eslint-disable no-prototype-builtins */
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+/* eslint-disable @typescript-eslint/no-unsafe-return */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
+import { render } from '@testing-library/react';
 import initStoryshots from '@storybook/addon-storyshots';
 
-initStoryshots();
+const reactTestingLibrarySerializer = {
+  print: (val: any, serialize: any, indent: any) => serialize(val.container.firstChild),
+  test: (val: any) => val && val.hasOwnProperty('container'),
+};
 
-// import { render } from '@testing-library/react';
-// import Home from  '../pages/index'
-//
-//
-// describe('snapshot test', () => {
-//   it('Home Component', () => {
-//     const { container } = render(<Home />);
-//     // eslint-disable-next-line testing-library/no-node-access
-//     expect(container.firstChild).toMatchSnapshot();
-//   });
-// });
+initStoryshots({
+  renderer: render,
+  snapshotSerializers: [reactTestingLibrarySerializer],
+});
