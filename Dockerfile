@@ -7,12 +7,8 @@ RUN npm uninstall --global yarn && \
 COPY --chown=node:node . /app
 USER node
 WORKDIR /app
-RUN find . -type f -name "*.stories.ts" -delete && \
-    find . -type f -name "*.stories.tsx" -delete && \
-    find . -type f -name "*.test.ts" -delete && \
-    find . -type f -name "*.test.tsx" -delete && \
-    find . -type f -name "*.spec.ts" -delete && \
-    find . -type f -name "*.spec.tsx" -delete
+RUN find -type f -regextype sed -regex ".*\.\(test\|spec\|stories\)\.\(ts\|tsx\)" -delete && \
+    find -type f -regextype sed -regex ".*\.snap" -delete
 RUN yarn install --ignore-scripts && \
     yarn build && \
     yarn install --production --ignore-scripts && \
