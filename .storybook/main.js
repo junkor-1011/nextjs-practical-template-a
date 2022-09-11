@@ -6,7 +6,14 @@ module.exports = {
     // '../src/**/*.stories.mdx',
     '../src/**/*.stories.@(js|jsx|ts|tsx)',
   ],
-  addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions'],
+  addons: [
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
+    '@storybook/addon-a11y',
+    '@storybook/preset-scss',
+    'storybook-addon-pseudo-states',
+  ],
   babel: async (options) => {
     // emotion用の注入設定
     // preset-react ローダーを取得してくる
