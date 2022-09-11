@@ -414,6 +414,14 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
 `;
 
 exports[`Storyshots Pages/Home Home Page 1`] = `
+.emotion-0 {
+  color: red;
+}
+
+.emotion-0 {
+  color: red;
+}
+
 <div
   class="container"
 >
@@ -423,12 +431,16 @@ exports[`Storyshots Pages/Home Home Page 1`] = `
     <h1
       class="title"
     >
-      Welcome to 
-      <a
-        href="https://nextjs.org"
+      <span
+        class="emotion-0"
       >
-        Next.js!
-      </a>
+        Welcome to 
+        <a
+          href="https://nextjs.org"
+        >
+          Next.js!
+        </a>
+      </span>
     </h1>
     <p
       class="description"

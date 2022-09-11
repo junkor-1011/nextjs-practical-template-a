@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
+import { css } from '@emotion/react';
 import styles from '../styles/Home.module.scss';
 
 // eslint-disable-next-line arrow-body-style
@@ -15,7 +16,13 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <span
+            css={css`
+              color: red;
+            `}
+          >
+            Welcome to <a href="https://nextjs.org">Next.js!</a>
+          </span>
         </h1>
 
         <p className={styles.description}>

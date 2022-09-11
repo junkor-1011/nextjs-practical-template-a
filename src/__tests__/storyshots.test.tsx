@@ -8,6 +8,7 @@
 
 import { render } from '@testing-library/react';
 import initStoryshots from '@storybook/addon-storyshots';
+import { createSerializer } from '@emotion/jest';
 
 const reactTestingLibrarySerializer = {
   print: (val: any, serialize: any, indent: any) => serialize(val.container.firstChild),
@@ -16,5 +17,5 @@ const reactTestingLibrarySerializer = {
 
 initStoryshots({
   renderer: render,
-  snapshotSerializers: [reactTestingLibrarySerializer],
+  snapshotSerializers: [reactTestingLibrarySerializer, createSerializer()],
 });
