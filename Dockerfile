@@ -1,4 +1,5 @@
 FROM node:18-bullseye-slim as node
+ENV YARN_VERSION=1.22.19
 RUN npm uninstall --global yarn && \
     corepack disable && \
     corepack enable yarn && \
@@ -6,7 +7,12 @@ RUN npm uninstall --global yarn && \
 COPY --chown=node:node . /app
 USER node
 WORKDIR /app
-ENV YARN_VERSION=1.22.19
+RUN find . -type f -name "*.stories.ts" -delete && \
+    find . -type f -name "*.stories.tsx" -delete && \
+    find . -type f -name "*.test.ts" -delete && \
+    find . -type f -name "*.test.tsx" -delete && \
+    find . -type f -name "*.spec.ts" -delete && \
+    find . -type f -name "*.spec.tsx" -delete
 RUN yarn install --ignore-scripts && \
     yarn build && \
     yarn install --production --ignore-scripts && \
