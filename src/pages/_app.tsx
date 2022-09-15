@@ -1,13 +1,14 @@
 import '../styles/globals.css';
-import type { AppProps } from 'next/app';
 import { RecoilRoot } from 'recoil';
 
-// eslint-disable-next-line arrow-body-style
-const MyApp = ({ Component, pageProps }: AppProps) => {
-  return (
+import type { AppPropsWithLayout } from '@/lib/next/types';
+
+const MyApp = ({ Component, pageProps }: AppPropsWithLayout) => {
+  const getLayout = Component.getLayout || ((page) => page);
+  return getLayout(
     <RecoilRoot>
       <Component {...pageProps} />
-    </RecoilRoot>
+    </RecoilRoot>,
   );
 };
 
