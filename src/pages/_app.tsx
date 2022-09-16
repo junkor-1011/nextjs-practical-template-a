@@ -5,11 +5,7 @@ import type { AppPropsWithLayout } from '@/lib/next/types';
 
 const MyApp = ({ Component, pageProps }: AppPropsWithLayout) => {
   const getLayout = Component.getLayout || ((page) => page);
-  return getLayout(
-    <RecoilRoot>
-      <Component {...pageProps} />
-    </RecoilRoot>,
-  );
+  return <RecoilRoot>{getLayout(<Component {...pageProps} />)}</RecoilRoot>;
 };
 
 export default MyApp;
